@@ -1,0 +1,100 @@
+<html>
+	<head>
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Merienda:700|Monoton" rel="stylesheet">
+	<title>SIGN UP</title>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.1/themes/dark-hive/jquery-ui.css"></script>
+	<script
+  src="https://code.jquery.com/color/jquery.color-2.1.2.js"
+  integrity="sha256-1Cn7TdfHiMcEbTuku97ZRSGt2b3SvZftEIn68UMgHC8="
+  crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery.css">
+    </script>
+		<script>
+			$(document).ready(function()) {
+			$('#container1').click(function(){
+                if ($(".password").attr("type")=="password") {
+                    $(".password").attr("type", "text");
+                }
+                else{
+                    $(".password").attr("type", "password");
+                }
+
+    });
+			});
+			});
+		</script>
+	</head>
+	<style>
+		.main{
+			background-color:#272727;
+		}
+		
+		.heading{
+			text-align:center;
+			font-family: 'Fredoka One', cursive;
+			color:#FF652F;
+			padding:40px;
+			font-size:40px;
+		}
+		
+		.text{
+			font-family: 'Fredoka One', cursive;
+			color:#FFE400;
+			padding:100px;
+			
+		}
+		
+		.center{
+			padding-top:20px;
+			padding-bottom:20px;
+			padding-left:500px;
+		}
+		
+		.submit{
+			color:black;
+		}
+		
+		
+	</style>
+	<body>
+	<div class="container-fluid">
+		<div class="main">
+			<div class="heading">FILL UP THE FOLLOWING INFORMATION!</div>
+			<form class="text">
+			<div class="form-group">
+				<label for="user">NAME :</label>
+				<input id="user" type="text" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="user1">EMAIL-ID :</label>
+				<input id="user1" type="text" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="user2">USERNAME :</label>
+				<input id="user2" type="text" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="user3">PASSWORD :</label>
+				<input id="user3" type="password" class="form-control">
+				<label id="container1">
+				<input type="checkbox">
+				SHOW PASSWORD</label>
+
+			</div>
+			
+			
+			<div class="form-group center">
+				<button  class="btn btn-success submit">SUBMIT</button>
+			</div>
+			</form>
+		</div>
+	</div>
+	</body>
+</html>
