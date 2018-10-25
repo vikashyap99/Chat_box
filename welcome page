@@ -80,9 +80,9 @@
 		
 		<div class="space">
 		<div class="space1">
-		<button class="btn-block btn-success btn-lg button"><a class="button" href="file:///C:/Users/VARNIKA-PC/Desktop/masterproject/signin.html" target="_blank">SIGN IN</a></button>
+		<button class="btn-block btn-success btn-lg button"><a class="button" href="signin.html" target="_blank">SIGN IN</a></button>
 		</div>
-		<button class="btn-block btn-danger btn-lg button"><a class="button" href="file:///C:/Users/VARNIKA-PC/Desktop/masterproject/signup.html" target="_blank">SIGN UP</a></button>
+		<button class="btn-block btn-danger btn-lg button"><a class="button" href="signup.html" target="_blank">SIGN UP</a></button>
 		</div>
 		
 		
