@@ -1,0 +1,31 @@
+{
+  "name": "nodeauth",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-messages": "*",
+    "express-session": "^1.15.6",
+    "express-validator": "*",
+    "http-errors": "*",
+    "jade": "~1.11.0",
+    "jquery": "^1.9.1",
+    "mongodb": "*",
+    "mongoose": "^5.3.6",
+    "morgan": "*",
+    "multer": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "popper.js": "^1.14.3",
+    "serve-favicon": "*"
+  }
+}
