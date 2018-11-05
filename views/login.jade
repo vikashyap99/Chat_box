@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	h2.page-header Login
+	p Please register using the form below
+	form(method='post',action='/users/login',)
+		.from-group
+			lable Username
+			input.form-control(name='username',type='text')
+			placeholder='Enter Username'
+		.from-group
+			lable Password
+			input.form-control(name='password',type='password')
+			placeholder='Enter Password'
+		input.btn.btn-primary(type='submit',name='submit',value='Login')

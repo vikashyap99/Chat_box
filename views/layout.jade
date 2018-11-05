@@ -1,0 +1,45 @@
+doctype html
+html(lang='en')
+    head
+        title Welcome
+        link(href='/stylesheets/style.css',rel='stylesheet')
+        link(href='/stylesheets/bootstrap.css', rel = 'stylesheet')
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+
+
+
+
+
+
+    body
+        .navbar.navbar-default(role='navigation')
+            .container
+                .navbar-header
+                    button.navbar-toggle(type='button',data-
+                    toggle='collapse',data-target='.navbar-collapse')
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href='#') CONNECT
+                .navbar-collapse.collapse
+                    ul.nav.navbar-nav
+                        li
+                            a(href='/') Home
+                        li
+                            a(href='/users/register') Resister
+                        li
+                            a(href='/users/login') LogIn
+                    ul.nav.navbar-right
+                        li
+                            a(href='/users/login') LogOut
+            .container
+             != messages()
+             block content
+
+
+            script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+            script(src='/javascripts/bootstrap.js')
+
